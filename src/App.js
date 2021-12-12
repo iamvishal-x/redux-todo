@@ -15,7 +15,7 @@ function App() {
           {todoList.map((item) => (
             <TodoItem id={item.id} name={item.item} done={item.done} />
           ))}
-        </div>
+        </div> 
         <Input />
       </div>
     </div>
